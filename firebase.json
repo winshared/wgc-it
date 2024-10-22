@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "WGC_IT_HTML",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
